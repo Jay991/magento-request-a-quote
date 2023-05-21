@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Magento_RequestAQuote::quote" title="Request a Quote" module="Magento_RequestAQuote" sortOrder="70" resource="Magento_RequestAQuote::quote"/>
+        <add id="Magento_RequestAQuote::quote_index" title="Manage Quotes" module="Magento_RequestAQuote" parent="Magento_RequestAQuote::quote" action="requestaquote/quote/index" sortOrder="10" resource="Magento_RequestAQuote::quote_index"/>
+    </menu>
+</config>

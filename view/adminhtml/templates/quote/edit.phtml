@@ -1,0 +1,28 @@
+<div>
+    <h1>Edit Request for Quote</h1>
+    
+    <form id="quote-edit-form" method="post" action="<?php echo $block->getSaveUrl() ?>">
+        <!-- Add your form fields and other elements here -->
+        <div class="field">
+            <label for="quote-name" class="label"><span><?php echo __('Quote Name') ?></span></label>
+            <div class="control">
+                <input type="text" id="quote-name" name="quote_name" class="input-text" value="<?php echo $block->getQuoteName() ?>">
+            </div>
+        </div>
+        
+        <!-- Add more form fields and elements as needed -->
+        
+        <div class="actions-toolbar">
+            <div class="primary">
+                <button type="submit" class="action save primary" title="<?php echo __('Save') ?>">
+                    <span><?php echo __('Save') ?></span>
+                </button>
+            </div>
+            <div class="secondary">
+                <a href="<?php echo $block->getCancelUrl() ?>" class="action back" title="<?php echo __('Cancel') ?>">
+                    <span><?php echo __('Cancel') ?></span>
+                </a>
+            </div>
+        </div>
+    </form>
+</div>

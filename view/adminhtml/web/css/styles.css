@@ -1,0 +1,37 @@
+/* Global styles */
+.quote-table {
+	width: 100%;
+	border-collapse: collapse;
+    }
+    
+    .quote-table th,
+    .quote-table td {
+	padding: 8px;
+	text-align: left;
+    }
+    
+    .quote-table th {
+	background-color: #f2f2f2;
+	font-weight: bold;
+    }
+    
+    .quote-table td {
+	border-bottom: 1px solid #ddd;
+    }
+    
+    .actions-toolbar {
+	margin-top: 20px;
+    }
+    
+    .actions-toolbar .action.add {
+	background-color: #007bff;
+	color: #fff;
+	padding: 8px 16px;
+	border-radius: 4px;
+	text-decoration: none;
+    }
+    
+    /* Additional styles specific to the module */
+    /* Add your custom styles here */
+    
+    

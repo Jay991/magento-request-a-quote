@@ -1,0 +1,31 @@
+{
+	"name": "magento/module-request-a-quote",
+	"description": "Magento Request a Quote module",
+	"type": "magento2-module",
+	"version": "1.0.0",
+	"license": [
+	    "OSL-3.0",
+	    "AFL-3.0"
+	],
+	"authors": [
+	    {
+		"name": "Jihad Rizk",
+		"email": "rizkjihad@gmail.com",
+		"homepage": "https://github.com/Jay991"
+	    }
+	],
+	"require": {
+		"php": "~8.1.6",
+		"magento/module-customer": "^101.0",
+		"magento/module-sales": "^101.0"
+	},
+	"autoload": {
+	    "files": [
+		"registration.php"
+	    ],
+	    "psr-4": {
+		"Magento\\RequestAQuote\\": ""
+	    }
+	}
+    }
+    
