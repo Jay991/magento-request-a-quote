@@ -1,6 +1,7 @@
 <?php
 /**
- * Your other code here...
+ * Copyright (c) 2023 The Gadfly OU
+ * All rights reserved.
  */
 
 use Magento\Framework\Component\ComponentRegistrar;
